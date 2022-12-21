@@ -39,10 +39,10 @@ function Catri() {
           <div className=' h-80   border-gray-400 border-2 p-2 m-4 perspective cursor-pointer preserve-3d hover:my-rotate-y-180 duration-1000'>
             <div className=" w-80 h-50 relative  cursor-pointer items-center preserve-3d group-hover:my-rotate-y-180 duration-1000">
 
-              <div className=" backface-hidden absolute cursor-pointer  "><img className='p-4 m-4' src={slider2} alt="./images/locket1.jpg">
+              <div className=" backface-hidden absolute cursor-pointer  "><img className='p-4 m-2 w-80 h-52' src={slider2} alt="./images/locket1.jpg">
 
               </img>
-                <p className="">(AC-CTM01)</p>
+                <p className="">AC-CTM01</p>
                 <h4 className="py-2">Cartridge Double Seal </h4>
               </div>
               <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto  ">

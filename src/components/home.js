@@ -35,7 +35,7 @@ import logo13 from '../images/logo13.jpg'
 import logo14 from '../images/logo14.png'
 import pump from '../images/pump5.gif'
 import { Link } from 'react-router-dom';
-// import major from "../images/major.jpg"
+import major from "../images/major1.jpg"
 
 
 
@@ -129,7 +129,7 @@ export default function Home() {
             </p>
             <div className='w-auto mx-auto text-center'>
               <button className='text-center  rounded-lg h-10 m-4 border-2 p-2' ><Link to='/about'>Know more ?</Link> </button>
-              <button className='text-center  rounded-lg h-10 m-4 border-2  p-2' ><a href='https://5.imimg.com/data5/SELLER/Doc/2021/3/HP/MG/DD/56957132/ac-tb03-type-teflon-bellow-seal.pdf'>View Catalogue</a> </button>
+              <button className='text-center  rounded-lg h-10 m-4 border-2  p-2' ><a href='https://drive.google.com/file/d/1Vi-oef46Ba9XJY-T-6eBADlDRshy5LH2/view?usp=share_link'>View Catalogue</a> </button>
             </div>
 
           </MDBCol>
@@ -143,14 +143,14 @@ export default function Home() {
 
         <Slider {...settings}>
 
-          <div className="p-4  mb-8    m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8    m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider1} alt="./images/locket1.jpg"></img></div>
 
           </div>
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider2} alt="./images/locket1.jpg"></img></div>
 
 
@@ -158,7 +158,7 @@ export default function Home() {
 
 
 
-          <div className="p-4   mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4   mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider3} alt="./images/locket1.jpg"></img></div>
 
 
@@ -166,7 +166,7 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
             <div className="  cursor-pointer  "><img className='zoom' src={slider4} alt="./images/locket1.jpg"></img></div>
 
 
@@ -174,14 +174,14 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider5} alt="./images/locket1.jpg"></img></div>
 
 
           </div>
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
             <div className=" cursor-pointer "><img src={slider6} alt="./images/locket1.jpg"></img></div>
 
          
@@ -190,6 +190,9 @@ export default function Home() {
         </Slider>
       </div>
       <hr></hr>
+      <div className='sm:hidden'>
+        <img src={major} alt="" className=''></img>
+      </div>
       <div className='w-full h-50 d-none d-lg-block'>
 
         <h2 className='p-10  mb-10'>Major clients</h2>

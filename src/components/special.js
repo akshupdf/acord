@@ -70,7 +70,7 @@ function Special() {
                             <div className=" backface-hidden absolute cursor-pointer  "><img className='p-4 m-4' src={slider1} alt="./images/locket1.jpg">
 
                             </img>
-                                <h5 className='py-6'>Cartridge Seal AC-GF01</h5>
+                                <h5 className='py-6'>Cartridge Seal </h5>
                             </div>
                             <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto  ">
                                 <p>Cartridge Balanced Seal Series is a specially designed seal for pumps ETP water and other fluids which are being pumped. These seals are widely used in multistage pumps.</p>
@@ -85,7 +85,7 @@ function Special() {
                             <div className=" backface-hidden absolute cursor-pointer  "><img className='p-4 m-4' src={slider2} alt="./images/locket1.jpg">
 
                             </img>
-                                <h5 className="py-6">Rubber Bellow Seal AC-MG01</h5>
+                                <h5 className="py-6">Rubber Bellow Seal </h5>
                             </div>
                             <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto ">
                                 <p>Rubber Bellow Seal is a single coil spring seal with elastomeric bellow designed for Water, Oil and Light Duty Applications.</p>
@@ -100,7 +100,7 @@ function Special() {
                             <div className=" backface-hidden absolute cursor-pointer  "><img className='p-4 m-4' src={slider3} alt="./images/locket1.jpg">
 
                             </img>
-                                <h5 className='py-6'>Single Spring Seal (AC- LKH 10)</h5>
+                                <h5 className='py-6'>Single Spring Seal </h5>
                             </div>
                             <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto ">
                                 <p>The Seal is a single coil spring designed for general chemicals and Light Duty Applications.Torque transmission from drive collar to spring holder seal rings is done through sturdy drive lugs...</p>

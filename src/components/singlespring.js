@@ -120,7 +120,7 @@ function Single() {
 
               <div className=" backface-hidden absolute cursor-pointer "><img className=' p-2 w-60 h-40 ml-4 m-4 ' src={slider1} alt="./images/locket1.jpg">
 
-              </img>(AC- S03)
+              </img>AC- S03
                 <h4 className='py-10'>Single Spring Seal</h4>
               </div>
               <div className="my-rotate-y-180 px-2  absolute overflow-hidden backface-hidden w-80 mx-auto ">
