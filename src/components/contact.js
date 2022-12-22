@@ -1,15 +1,16 @@
 import { MDBCol, MDBRow, } from 'mdb-react-ui-kit';
+import logo from '../images/call2.jpg'
 
 export default function Contact() {
 
     return (
-        <div>
-            <div className='p-4'>
+        <div className='bg-no-repeat bg-cover bg-fixed w-screen' style={{ backgroundImage: `url(${logo})` }}>
+            <div className='p-4 font-medium '>
 
 
-                <MDBRow className=' justify-content-center'>
+                <MDBRow className=' justify-content-center '>
 
-                    <MDBCol md='6' className=' mt-5 text-l shadow-2xl'>
+                    <MDBCol md='6' className=' mt-5 text-l shadow-2xl bg-white'>
                         <h5 className='text-uppercase fw-bold mb-4'>
 
                             Head Office and Manufacturing Unit:

@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FiInstagram, FiLinkedin ,FiFacebook} from "react-icons/fi";
-import { FaTelegram } from "react-icons/fa"
+import { FaWhatsapp } from "react-icons/fa"
 import { MDBIcon } from 'mdb-react-ui-kit';
 
 
@@ -52,10 +52,10 @@ export default function Footer() {
               <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>Follow us on:-</h6>
                 <div className='flex'>
-                <h1 className="p-2 text-3xl"><a href="https://facebook.com/"><FiFacebook/></a> </h1>
-                  <h1 className="p-2 text-3xl"><a href="https://www.instagram.com/"><FiInstagram /></a> </h1>
-                  <h1 className="p-2 text-3xl"><a href="https://www.linkedin.com/in/"><FiLinkedin /></a> </h1>
-                  <h1 className="p-2 text-3xl"><a href="https://telegram.org/"><FaTelegram /></a> </h1>
+                <h1 className="p-2 text-3xl"><a href="https://www.facebook.com/A-Cord-SEALS-INDIA-PVT-LTD-102926754936995"><FiFacebook/></a> </h1>
+                  <h1 className="p-2 text-3xl"><a href="https://www.instagram.com/acord_seals_india_pvt_ltd/?igshid=ZmZhODViOGI%3D"><FiInstagram /></a> </h1>
+                  <h1 className="p-2 text-3xl"><a href="https://www.linkedin.com/in/a-cord-seals-bba2271ab/"><FiLinkedin /></a> </h1>
+                  <h1 className="p-2 text-3xl"><a href="https://api.whatsapp.com/message/A4LKMNORSZMYM1?autoload=1&app_absent=0"><FaWhatsapp /></a> </h1>
                 </div>
 
 

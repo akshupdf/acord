@@ -12,7 +12,7 @@ function Single3() {
             </div>
             <div className=" w-[80%] my-4">
                 <h1 className="text-black"><a href="/single"><BsArrowLeftCircleFill style={{ color: 'black' }} /></a></h1>
-                <div className="flex flex-wrap w-[100vh]">
+                <div className="flex flex-wrap w-[100]">
                     <img src={single} alt="" className="w-60 h-40 ml-10"></img>
                     <h4 className='py-4 '>Conical Spring Seal</h4>
                     

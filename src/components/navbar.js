@@ -51,21 +51,22 @@ function Panel() {
   }
 
   return (
-    <div className='sticky-top font-mono   bg-white   justify-center text-center'>
-      <Navbar expand="lg" className='' >
+    <div className='sticky-top  font-bold   w-[100%] bg-white  '>
+      
+      <Navbar expand="lg" className='mx-auto w-[100%] '>
 
         <Container className='h-20  ' >
-          <Navbar.Brand href="/" ><img className='w-30 h-20   rounded-full' src={logo} alt=""></img></Navbar.Brand>
-          <div className='mt-4 font-serif d-none d-lg-block'>
-            <h5>A-CORD SEALS INDIA PVT LTD</h5>
+          <Navbar.Brand href="/"  className='flex '><img className=' h-20 mt-2 mr-10 rounded-full' src={logo} alt=""></img><div className='mt-4 mr-[10%] font-bold d-none d-lg-block'>
+            <h4>A-CORD SEALS INDIA PVT LTD</h4>
             <p className='font-italic'>"Your attention, Our Co-ordination"</p>
-          </div>
+          </div></Navbar.Brand>
+          
+          <div className=''>
 
-
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className=' ' />
+          <Navbar.Toggle aria-controls="basic-navbar-nav " className='' />
           <Navbar.Collapse className='  ' id="basic-navbar-nav">
-            <Nav className=" text-xl  ml-[50%]  " >
-              <Nav.Link href="/" className='  '>Home</Nav.Link>
+            <Nav className=" text-xl  " >
+              <Nav.Link href="/" className=' font-bold '>Home</Nav.Link>
 
               <NavDropdown title="Products" id="basic-nav-dropdown" show={show}
                 onMouseEnter={showdropdown}
@@ -79,10 +80,11 @@ function Panel() {
                 <NavDropdown.Item href="/react">Reactor Seals</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/about" className=' '>About Us</Nav.Link>
-              <Nav.Link href="/contact" className=' '>contact Us</Nav.Link>
+              <Nav.Link href="/about" className=''>About us</Nav.Link>
+              <Nav.Link href="/contact" className='p-2'>Contact us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </div>

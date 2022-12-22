@@ -143,14 +143,14 @@ export default function Home() {
 
         <Slider {...settings}>
 
-          <div className="p-4  mb-8    m-4 hover:scale-125 ease-in-out duration-300">
+          <div className="p-4  mb-8    m-4 hover:scale-150 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider1} alt="./images/locket1.jpg"></img></div>
 
           </div>
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider2} alt="./images/locket1.jpg"></img></div>
 
 
@@ -158,7 +158,7 @@ export default function Home() {
 
 
 
-          <div className="p-4   mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
+          <div className="p-4   mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider3} alt="./images/locket1.jpg"></img></div>
 
 
@@ -166,7 +166,7 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
             <div className="  cursor-pointer  "><img className='zoom' src={slider4} alt="./images/locket1.jpg"></img></div>
 
 
@@ -174,14 +174,14 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider5} alt="./images/locket1.jpg"></img></div>
 
 
           </div>
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
             <div className=" cursor-pointer "><img src={slider6} alt="./images/locket1.jpg"></img></div>
 
          
@@ -195,7 +195,7 @@ export default function Home() {
       </div>
       <div className='w-full h-50 d-none d-lg-block'>
 
-        <h2 className='p-10  mb-10'>Major clients</h2>
+        <h2 className='p-10  mb-10 text-6xl'>Clientele</h2>
         <div className=' h-50 grid grid-cols-5'>
 
 

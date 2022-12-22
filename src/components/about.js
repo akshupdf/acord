@@ -1,13 +1,13 @@
-
+import logo from '../images/pump6.jpg'
 
 function about() {
 
   return (
 
-    <div className="w-full my-20 max-w-[1240px] mx-auto flex flex-col bg-[url(https://engineeringlearn.com/wp-content/uploads/2022/03/Mechanical-Seal-1024x539.jpg) ]">
-      <h1 className="text-3xl text-center font-monospace font-bold">About Us</h1>
+    <div className="w-full max-w-screen mx-auto font-bold flex flex-col bg-no-repeat bg-cover bg-fixed" style={{ backgroundImage: `url(${logo})` }} >
+      <h1 className="text-3xl m-2 text-center bg-white w-40 mx-auto  font-bold">About Us</h1>
 
-      <div className="container  border-gray-100  px-4 py-12  text-slate-900 m-4 ">
+      <div className="container w-[80%] mx-auto opacity-80 bg-white  border-gray-100  px-4 py-12  text-slate-900 m-4 ">
 
         <p className="font-monospace text-xl"><span className="font-bold">A-CORD SEALS INDIA PVT LTD.</span> is a core manufacturer of Mechanical Shaft Seals with effective sealing solutions.
           We at A-CORD, offer a diversified working environment with enthusiasm and adaptability to change for the good. </p><br></br>
@@ -22,8 +22,8 @@ function about() {
       </div>
       <hr className="text-2xl "></hr>
 
-      <div className="flex justify-center font-monospace text-L">
-        <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl '>
+      <div className="flex w-[80%] bg-white opacity-80  justify-center font-monospace mx-auto text-xl">
+        <div className=' text-slate-900 m-4 p-8 rounded-xl shadow-2xl '>
 
           <div>
             <p className='text-2xl font-bold  '>	AIMS:</p>
@@ -39,7 +39,7 @@ function about() {
 
 
 
-        <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl  '>
+        <div className=' text-slate-900 m-4 p-8  bg-white rounded-xl shadow-2xl  '>
 
           <div>
             <p className='text-2xl font-bold '>	QUALITY POLICY:</p>
