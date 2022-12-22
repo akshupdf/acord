@@ -20,10 +20,10 @@ function about() {
           Our commitment towards on time delivery and instant service has been much courageous for both us and our valuable clients. </p>
 
       </div>
-      <hr className="text-2xl "></hr>
+    
 
-      <div className="flex w-[80%] bg-white opacity-80  justify-center font-monospace mx-auto text-xl">
-        <div className=' text-slate-900 m-4 p-8 rounded-xl shadow-2xl '>
+      <div className="flex flex-wrap w-[80%]  opacity-80  justify-center font-monospace mx-auto text-xl">
+        <div className=' text-slate-900 m-4 p-8 bg-white rounded-xl shadow-2xl '>
 
           <div>
             <p className='text-2xl font-bold  '>	AIMS:</p>
