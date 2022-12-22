@@ -36,6 +36,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/logoo.jpg'
 import { useState } from 'react';
+import '../App.css';
 
 function Panel() {
 
@@ -51,14 +52,14 @@ function Panel() {
   }
 
   return (
-    <div className='sticky-top  font-bold   w-[100%] bg-white  '>
+    <div className='sticky-top font-bold   w-[100%] bg-white  '>
       
       <Navbar expand="lg" className='mx-auto w-[100%] '>
 
         <Container className='h-20  ' >
-          <Navbar.Brand href="/"  className='flex '><img className=' h-20 mt-2 mr-10 rounded-full' src={logo} alt=""></img><div className='mt-4 mr-[10%] font-bold d-none d-lg-block'>
+          <Navbar.Brand href="/"  className='flex '><img className=' h-20 mt-2 mr-10 rounded-full' src={logo} alt=""></img><div className='mt-4 mr-[10%]  d-none d-lg-block'>
             <h4>A-CORD SEALS INDIA PVT LTD</h4>
-            <p className='font-italic'>"Your attention, Our Co-ordination"</p>
+            <p className='italic '>"Your attention, Our Co-ordination"</p>
           </div></Navbar.Brand>
           
           <div className=''>
