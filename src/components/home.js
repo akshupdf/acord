@@ -167,7 +167,7 @@ export default function Home() {
 
 
           <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
-            <div className="  cursor-pointer  "><img className='zoom' src={slider4} alt="./images/locket1.jpg"></img></div>
+            <div className="  cursor-pointer  "><img  src={slider4} alt="./images/locket1.jpg"></img></div>
 
 
           </div>

@@ -14,6 +14,7 @@ function Below3() {
                 <h1 className="text-black"><a href="/bellow"><BsArrowLeftCircleFill style={{ color: 'black' }} /></a></h1>
                 <div className="flex flex-wrap w-[100]">
                     <img src={single} alt="" className="w-60 h-40 ml-10"></img>
+                    <h4>Teflon Bellow</h4>
                     <div className="w-100 ml-10 flex">
                         <p>Teflon Bellow Seal Series are designed for extreme corrosive chemical applications including concentrated acids, salts, strong oxidising and reducing agents & chemically active organic compounds. All components which come in contact with the liquid to be sealed are made of chemically inert material. Metallic components, clamping ring and springs are located outside the media.</p>
                     </div>

@@ -24,10 +24,10 @@ function Reactor() {
           <div className=' h-80   border-gray-400 border-2 p-2 m-4 perspective cursor-pointer preserve-3d hover:my-rotate-y-180 duration-1000'>
             <div className=" w-80 h-50 relative  cursor-pointer items-center preserve-3d group-hover:my-rotate-y-180 duration-1000">
 
-              <div className=" backface-hidden absolute cursor-pointer  "><img className='  p-2 w-65 h-50' src={slider1} alt="./images/locket1.jpg">
+              <div className=" backface-hidden absolute cursor-pointer  "><img className='  p-4 w-65 ' src={slider1} alt="./images/locket1.jpg">
 
               </img>AC-ASD01
-                <h5 className='py-[-2px]'>Dry Running Seal</h5>
+                <h5 className=''>Dry Running Seal</h5>
               </div>
               <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto ">
                 <p>Dry Running Seal Series is factory assembled & dynamic tested seal for steel, glass lined & SS mixers, agitators & vessels. It is a multiple spring externally mounted, reverse balanced</p>
