@@ -43,7 +43,7 @@ function Reactor() {
 
               </img>
               <p className='mt-12'> AC-ASW01</p>
-                <h5 className="mt-[-16px]">8Wet Running Seal without Bearing </h5>
+                <h5 className="mt-[-16px]">Wet Running Seal without Bearing </h5>
               </div>
               <div className="my-rotate-y-180 px-2 py-20 absolute overflow-hidden backface-hidden w-80 mx-auto ">
                 <p>Wet Running Seal without Bearing Series is factory assembled & dynamic tested seal for steel, glass lined & SS mixers, agitators & vessels.</p>
