@@ -65,7 +65,7 @@ function Panel() {
           <div className=''>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav " className='' />
-          <Navbar.Collapse className='  ' id="basic-navbar-nav">
+          <Navbar.Collapse className=' bg-white ' id="basic-navbar-nav">
             <Nav className=" text-xl  " >
               <Nav.Link href="/" className=' font-bold '>Home</Nav.Link>
 

@@ -116,8 +116,11 @@ export default function Home() {
 
           <MDBCol md='6' className=' mt-4 text-l shadow-2xl'>
             <p><span className='font-bold'>A-CORD SEALS INDIA PVT LTD.</span> is one of the leading manufacturers of ‘MECHANICAL SEALS’.
-              <p>(MSME REGISTERED COMPANY)
+            (MSME REGISTERED COMPANY)
                 (ISO CERTIFIED 9001-2015)</p>
+              
+
+                <p>
 
               <span className='font-bold'>A-CORD SEALS INDIA PVT LTD.</span>is a firm which is a mechanical shaft seals manufacturer with good quality and skilled manpower and this punctuality have made us reach a great height in the market today.
 
@@ -143,14 +146,14 @@ export default function Home() {
 
         <Slider {...settings}>
 
-          <div className="p-4  mb-8    m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8    m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider1} alt="./images/locket1.jpg"></img></div>
 
           </div>
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider2} alt="./images/locket1.jpg"></img></div>
 
 
@@ -158,7 +161,7 @@ export default function Home() {
 
 
 
-          <div className="p-4   mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4   mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider3} alt="./images/locket1.jpg"></img></div>
 
 
@@ -166,7 +169,7 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
             <div className="  cursor-pointer  "><img  src={slider4} alt="./images/locket1.jpg"></img></div>
 
 
@@ -174,14 +177,14 @@ export default function Home() {
 
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300">
             <div className=" cursor-pointer "><img src={slider5} alt="./images/locket1.jpg"></img></div>
 
 
           </div>
 
 
-          <div className="p-4  mb-8   items-center m-4 hover:scale-150 ease-in-out duration-300 ">
+          <div className="p-4  mb-8   items-center m-4 hover:scale-125 ease-in-out duration-300 ">
             <div className=" cursor-pointer "><img src={slider6} alt="./images/locket1.jpg"></img></div>
 
          
