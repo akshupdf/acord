@@ -69,7 +69,7 @@ export default function Footer() {
         </section>
 
         <div className='text-right p-[-10] mr-5' >
-          © Copyright 2022 : A-CORD SEALS INDIA PVT LTD.
+          © Copyright 2023 : A-CORD SEALS INDIA PVT LTD.
 
           <p>Developer <a href='https://akshupdf.github.io/profile'>akshupdf</a></p>
         </div>
